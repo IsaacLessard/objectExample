@@ -5,9 +5,9 @@ function Person(firstName, lastName){
   this.getFirst = function () {
     return this.firstName;
   }
-  this.setFirst = function(firstName){
-    if(typeof firstName == 'string'){
-      this.firstName = firstName;
+  this.setFirst = function(first){
+    if(typeof first == 'string'){
+      this.firstName = first;
     } else {
       console.log("Invalid name!");
     }
@@ -15,9 +15,9 @@ function Person(firstName, lastName){
   this.getLast = function () {
     return this.lastName;
   }
-  this.setLast = function(lastName){
-    if(typeof lastName == 'string'){
-      this.lastName = lastName;
+  this.setLast = function(last){
+    if(typeof last == 'string'){
+      this.lastName = last;
     } else {
       console.log("Invalid name!");
     }
